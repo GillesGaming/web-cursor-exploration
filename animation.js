@@ -1,6 +1,6 @@
 (function () {
     console.log("import")
-    
+
     this.initiate = () => {
         console.log("initiated")
         this.defaults = {
@@ -81,7 +81,7 @@
             width: `${options.objectSize}px`,
             height: `${options.objectSize}px`,
             transition: `all ${i * options.transitionDuration}ms ease `,
-            backgroundColor: `#${i}${i}${i}`
+            backgroundColor: randomColor()
         };
     }
 
