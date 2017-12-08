@@ -81,7 +81,7 @@
             width: `${options.objectSize}px`,
             height: `${options.objectSize}px`,
             transition: `all ${i * options.transitionDuration}ms ease `,
-            backgroundColor: randomColor()
+            backgroundColor: randomColorMaterial()
         };
     }
 
